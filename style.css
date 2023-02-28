@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+*{ 
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'open sans', sans-serif;
+}
+
+.information-color img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 1px solid yellowgreen;
+    padding-bottom: 0;
+}
+
+#container{
+ background-color: #000000;
+   
+}
+
+.information-color{
+    background-color: #e4171700;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 18px;
+    padding: 40px;
+
+}
+.information-color hr{
+    border: none;
+    border-bottom: 1px solid  green;
+    margin-bottom: 18px;
+    margin-top: 18px;
+}
+.contact-description h3{
+    text-align: left;
+    margin-top: 20px;
+    color: green; 
+}
+.contact-description ul{
+
+    list-style-type: none;
+}
+.contact-description li{
+ text-align: left;
+ margin: 10px 0;
+
+ 
+
+}
+.contact-description a{
+    text-decoration: none;
+    color: #fff;
+  
+}
+.contact-description  i{
+    color: green;
+    margin-right: 10px;
+}
+
+
+/*.education-description*/
+.education-description h3{
+    text-align: left;
+    color: green;
+    padding-top: 18px;
+}
+.education-description p {
+    text-align: left;
+   
+   
+}
+.education-description h5{
+    text-align: left;
+
+}
+
+/*language-description*/
+
+.language-description h3{
+    color:green;
+    margin-top:32px;
+    text-align: left;
+}
+.language-description ul{
+    list-style-type: none;
+    text-align: left; 
+}
+.language-description .percent{
+    height: 6px;
+    margin-top: 5px;
+    background-color:#008000;
+    width:100%;
+    
+   
+}
+.language-description .percent div{
+    height: 6px;
+    background-color: #32CD32;
+
+}
+.language-description  .percent.english div{
+    width: 10%;
+}
+
+/*experiences*/
+
+
+.experiences{
+    background-color: #fff;
+    padding: 40px;
+}
+.experiences section{
+    margin-bottom: 30px;
+}
+
+
+/*project*/
+
+.project a {
+    color:#000000;
+    text-decoration: none;
+    font-family: 'open sans', sans-serif;
+
+}
+
+.project a:hover{
+    color:#008000;
+    font-family: Roboto;
+}
+.updated p {
+    text-align: right;
+    padding: 3px;
+}
+
+
+/*midias*/
+@media (min-width: 996px){
+   #container{
+    display: flex;
+   }
+   .information-color img{
+    height: 200px;
+    width: 200px;
+   }
+.section h3 p{
+    display: flex;
+    align-items: center;
+    margin-left: center;
+    margin-right: center;
+
+   }
+   .experiences-section{
+    display: flex;
+
+   }
+   .date{
+    width: 300px;
+   }
+}
